@@ -1,0 +1,22 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A modern to-do list application with local storage functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -o -p 8080",
+    "dev": "http-server",
+    "build": "echo 'No build needed for this static app'"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "local-storage",
+    "productivity"
+  ],
+  "author": "DIGJAYA",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
